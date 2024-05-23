@@ -1,0 +1,98 @@
+.book-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  padding: 20px;
+  max-width: 800px;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  text-align: center;
+}
+
+.book-title {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+.book-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.book-cover {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.book-details {
+  margin-top: 20px;
+  width: 100%;
+}
+
+.book-author, .book-description {
+  margin-bottom: 15px;
+  font-size: 1.1rem;
+}
+
+.book-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.next-book-button, .read-book-button {
+  padding: 12px 24px;
+  margin: 10px 5px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s;
+}
+
+.next-book-button {
+  background-color: #007BFF;
+  color: white;
+}
+
+.next-book-button:hover {
+  background-color: #0056b3;
+}
+
+.read-book-button {
+  background-color: #28a745;
+  color: white;
+}
+
+.read-book-button:hover {
+  background-color: #218838;
+}
+
+.book-readers {
+  margin-top: 20px;
+  width: 100%;
+}
+
+.book-reader {
+  margin: 5px 0;
+}
+
+.book-reader.clickable {
+  color: #007bff;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.book-reader.clickable:hover {
+  text-decoration: underline;
+  color: #0056b3;
+}

@@ -1,0 +1,66 @@
+.book-club-add-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.book-club-add-form-cover,
+.book-club-add-form-name,
+.book-club-add-form-description,
+.book-club-add-form-meeting-link {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+input[type="file"] {
+  margin-top: 5px;
+}
+
+.cover-img {
+  margin-top: 10px;
+  max-width: 100px;
+  max-height: 100px;
+  border-radius: 5px;
+  object-fit: cover;
+}
+
+.book-club-add-form-submit {
+  padding: 12px 24px;
+  border: none;
+  border-radius: 5px;
+  background-color: #28a745;
+  color: white;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s;
+}
+
+.book-club-add-form-submit:hover {
+  background-color: #218838;
+}
+
+.error-message {
+  color: red;
+  margin-bottom: 15px;
+}

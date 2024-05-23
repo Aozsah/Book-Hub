@@ -1,0 +1,41 @@
+.bookClub-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start; /* Align items to the top */
+  padding: 20px;
+  background-color: #f0f2f5;
+}
+
+.bookClub-cover {
+  width: 80%;
+  height: auto;
+  object-fit: cover;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+
+}
+
+.bookClub-title {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+.join-club-button {
+  margin-top: 20px;
+}
+
+.bookClub-users {
+  margin-top: 20px;
+}
+
+.bookClub-user.clickable {
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.bookClub-user.clickable:hover {
+  text-decoration: underline;
+  color: #1890ff;
+}

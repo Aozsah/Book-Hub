@@ -1,0 +1,59 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2rem;
+  }
+  
+  .nav-left {
+    display: flex;
+  }
+  
+  .logo {
+    width: 60%;
+    height: 60%;
+    animation: slide-in 1s ease-in;
+  }
+  
+  @keyframes slide-in {
+    from {
+      transform: translateX(-100%);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
+  
+  .slogan {
+    font-size: 1.2rem;
+    margin: 1rem;
+  }
+  
+  .navButtons {
+    transition: all 0.5s ease;
+    animation: button-animation 0.5s ease;
+  }
+  
+  .navButtons:hover {
+    transition: all 0.5s ease;
+  }
+  
+  
+  
+  .nav-right a {
+    text-decoration: none;
+  }
+  
+  .nav-right a:hover .navButtons {
+    
+    background-color: #c94f96;
+  }
+  
+  @keyframes button-animation {
+    from {
+      transform: scale(1);
+    }
+    to {
+      transform: scale(1.1);
+    }
+  }
+  

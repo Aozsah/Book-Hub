@@ -1,0 +1,49 @@
+.book-add-form {
+  background-color: #eeeeee;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  margin: 2rem auto;
+  padding: 1.25rem;
+  border: 0.0625rem solid #ccc;
+  border-radius: 1.25rem;
+  box-shadow: 0.5rem 0.5rem 1.25rem rgba(0, 0, 0, 0.3);
+}
+
+.book-add-form label {
+  font-size: 1rem;
+  margin-bottom: 0.625rem;
+}
+
+.book-add-form input[type="text"],
+.book-add-form textarea {
+  width: 100%;
+  padding: 0.75rem 1.25rem;
+  margin: 0.5rem 0;
+  box-sizing: border-box;
+  border: 0.0625rem solid #ccc;
+  border-radius: 0.625rem;
+  resize: none;
+}
+
+.book-add-form input[type="file"] {
+  width: 100%;
+  margin: 0.5rem 0;
+}
+
+.book-add-form button[type="submit"] {
+  width: 30%;
+  background-color: blue;
+  color: white;
+  padding: 0.875rem 1.25rem;
+  margin: 0.5rem 0;
+  border: none;
+  border-radius: 0.625rem;
+  cursor: pointer;
+  font-size: 1.25rem;
+}
+
+.book-add-form button[type="submit"]:hover {
+  background-color: #45a049;
+}

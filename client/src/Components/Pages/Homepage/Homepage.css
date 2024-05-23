@@ -1,0 +1,13 @@
+.homepage{
+    margin-top: 2rem;
+    animation: fade-in 1s ease-in;
+
+}
+.homepageHr{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    height: .1rem;
+    background-color: black;
+    animation: fade-in 1s ease-in;
+
+}
